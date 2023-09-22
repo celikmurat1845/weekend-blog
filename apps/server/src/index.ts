@@ -1,1 +1,2 @@
-console.log("------ merhaba -----")
+const murat = 'hello';
+console.log(murat)
