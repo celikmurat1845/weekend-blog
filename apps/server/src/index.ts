@@ -1,2 +1,1 @@
-const murat = 'hello';
-console.log(murat)
+console.log('Hello world!');
