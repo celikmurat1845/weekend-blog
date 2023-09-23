@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./*/tsconfig.json",
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "extends": [
+    "plugin:@typescript-eslint/recommended", // Recommended rules for code correctness that you can drop in without additional configuration
+    "plugin:@typescript-eslint/eslint-recommended", // It disables core ESLint rules that are already checked by the TypeScript compiler. Additionally, it enables rules that promote using the more modern constructs TypeScript allows for
+    "prettier" // Turns off all rules that are unnecessary or might conflict with Prettier
+  ],
+  "plugins": ["@typescript-eslint"],
+  "rules": {},
+  "overrides": []
+}
