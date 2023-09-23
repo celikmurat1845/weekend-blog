@@ -3,10 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "npx nx dev server & npx nx dev client"
+    "dev": "npx nx run-many --target=dev --projects=server,client"
   },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "@nx/js": "16.8.1",
     "nx": "16.8.1"
