@@ -9,9 +9,10 @@
   "private": true,
   "devDependencies": {
     "@nx/js": "16.8.1",
+    "husky": "^8.0.0",
     "lint-staged": "^14.0.1",
-    "nx": "16.8.1",
-    "husky": "^8.0.0"
+    "nx": "^16.8.1",
+    "tsc-files": "^1.1.4"
   },
   "workspaces": [
     "apps/*"

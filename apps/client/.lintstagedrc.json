@@ -1,5 +1,9 @@
 {
-  "./src/**/*.{ts,tsx,js}": ["prettier --write", "eslint --fix"],
+  "./src/**/*.{ts,tsx}": [
+    "tsc-files --noEmit",
+    "prettier --write",
+    "eslint --fix"
+  ],
   "./*.json": "prettier --write",
   "./src/**/*.css": "prettier --write"
 }
