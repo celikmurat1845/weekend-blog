@@ -3,12 +3,15 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "npx nx run-many --target=dev --projects=server,client"
+    "dev": "npx nx run-many --target=dev --projects=server,client",
+    "prepare": "husky install"
   },
   "private": true,
   "devDependencies": {
     "@nx/js": "16.8.1",
-    "nx": "16.8.1"
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1",
+    "nx": "^16.8.1"
   },
   "workspaces": [
     "apps/*"
