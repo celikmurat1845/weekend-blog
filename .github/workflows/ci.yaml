@@ -45,4 +45,4 @@ jobs:
         cache: 'npm'
     - run: npm install nx
     - run: npm install
-    - run: tsc --noEmit --esModuleInterop
+    - run: cd apps/client && tsc --noEmit --esModuleInterop && cd ../server && tsc --noEmit --esModuleInterop
