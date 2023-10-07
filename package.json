@@ -4,6 +4,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "npx nx run-many --target=dev --projects=server,client",
+    "lint": "npx nx run-many --target=lint --projects=server,client",
+    "test": "npx nx run-many --target=test --projects=server,client",
     "prepare": "husky install"
   },
   "private": true,
