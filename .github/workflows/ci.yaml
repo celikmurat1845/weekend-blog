@@ -5,7 +5,7 @@ on:
     branches: ["develop"]
 
 jobs:
-  lint, test, type-check:
+  lint-test-type_check:
     runs-on: ubuntu-latest
 
     steps:
