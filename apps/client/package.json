@@ -10,7 +10,8 @@
     "lint:fix": "eslint \"src/**/*.{ts,tsx}\" --fix",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "test": "cypress run --component",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "autoprefixer": "10.4.15",
