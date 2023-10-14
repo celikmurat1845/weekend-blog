@@ -1,3 +1,7 @@
-console.log('Hello world');
+import { app } from './app';
 
-console.log('linstagedrc is running on project ?');
+const PORT: number = 8008;
+
+app.listen(PORT, () => {
+    console.log(`Weekend Blog is awake on port: ${PORT}`);
+});
